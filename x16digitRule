@@ -1,0 +1,8 @@
+rule RegExpExample1
+{
+    strings:
+        $re1 = /[0-9]{16}/ wide
+
+    condition:
+       $re1
+}
